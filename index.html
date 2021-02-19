@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyo Portfolio</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-wrapper wrapper">
+            <h1>Portfolio</h1>
+            <nav class="g-nav">
+                <ul class="g-nav-list">
+                    <li class="g-nav-item"><a href="#about">About</a></li>
+                    <li class="g-nav-item"><a href="#skills">Skills</a></li>
+                    <li class="g-nav-item"><a href="#works">Works</a></li>
+                    <li class="g-nav-item"><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="about" id="about">
+        <div class="about-wrapper wrapper">
+            <h2>About</h2>
+            <p class="name">Kyo</p>
+            <p>
+                神奈川県出身、東京都目黒区在住の20代後半の男です。<br>明治大学理工学部卒、卒業後は塾講師をしていました。<br><br>
+                2020年9月からweb製作について勉強中。現在 WordPress、PHPを中心に学習中。
+            </p>
+        </div>
+    </div>
+    <div class="skills" id="skills">
+        <div class="skills-wrapper wrapper">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li class="skills-item">
+                    <i class="fab fa-html5"></i>
+                    <p>HTML</p>
+                </li>
+                <li class="skills-item">
+                    <i class="fab fa-css3-alt"></i>
+                    <p>CSS</p>
+                </li>
+                <li class="skills-item">
+                    <i class="fab fa-js-square"></i>
+                    <p>JavaScript</p>
+                </li>
+            </ul>
+            <p class="skills-discription">HTML、CSS、JavaScript、jQueryを使ったwebサイト制作ができます。<br>現在 WordPress、php、mySQLを中心に学習しています。</p>
+        </div>
+    </div>
+    <div class="works" id="works">
+        <div class="works-wrapper wrapper">
+            <h2>Works</h2>
+            <ul class="works-list">
+                <li class="works-items">
+                    <img src="images/work1.jpg" alt="有限会社Planetwork様のHP:PC版" class="pc">
+                    <p>有限会社Planetwork様：PC版</p>
+                    <p>URL:<a href="https://www.planetwork.jp/">https://www.planetwork.jp/</a></p>
+                </li>
+                <li class="works-items">
+                    <img src="images/work1-responsive.jpg" alt="有限会社Planetwork様のHP:SP版" class="sp">
+                    <p>有限会社Planetwork様：SP版</p>
+                </li>
+                <li class="works-items">
+                    <img src="images/work2.jpg" alt="架空サイト" class="dummy-image">
+                    <p>デンタルクリニック架空サイト模写</p>
+                </li>
+                <li class="works-items" id="empty">
+
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="contact" id="contact">
+        <div class="contact-wrapper wrapper">
+            <h2>Contact</h2>
+            <p>お仕事のご依頼やお問い合わせはこちらのフォームからお願いいたします。</p>
+            <div class="contact-form">
+                <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfxmv02JdiS2_rohfJKdHxbFkGdn0Z4_JpzcxyVzPNJs_j3qg/formResponse" method="POST">
+                    <div class="form-contents">
+                        <label>お名前<span>*</span></label><br>
+                        <input type="text" class="txta" name="entry.1214749117" placeholder="Name" required>
+                    </div>
+                    <div class="form-contents">
+                        <label>メールアドレス<span>*</span></label><br>
+                        <input type="mail" class="txta" name="entry.1468096490" placeholder="E-mail" required>
+                    </div>
+                    <div class="form-contents">
+                        <label>お問い合わせ内容<span>*</span></label><br>
+                        <textarea name="entry.531580586" placeholder="お仕事のご依頼など" required></textarea>
+                    </div>
+                    <button type="submit" class="submit">送信</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

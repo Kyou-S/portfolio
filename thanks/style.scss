@@ -1,0 +1,36 @@
+body {
+    background-color: #ffdac8;
+    text-align: center;
+    padding-top: 100px;
+    .thanks {
+        color: #424242;
+        &-wrapper {
+            width: 600px;
+            height: auto;
+            margin: 0 auto;
+        }
+        p {
+            font-size: 20px;
+            margin-top: 40px;
+        }
+        .button {
+            width: 150px;
+            height: 50px;
+            background-color: gray;
+            margin: 40px auto 0;
+            border-radius: 10px;
+            &:hover {
+                background-color: #3d3d3d;
+            }
+            a {
+                display: block;
+                width: 100%;
+                height: 100%;
+                text-decoration: none;
+                color: #fff;
+                line-height: 50px;
+                font-size: 20px;
+            }
+        }
+    }
+}

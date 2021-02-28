@@ -1,6 +1,6 @@
 html {
-    font-size: 10px;
-    font-family: sans-serif;
+    font-size: 62.5%;
+    font-family: 'Ubuntu', sans-serif;
     text-align: center;
 }
 
@@ -15,12 +15,17 @@ h2 {
     margin-bottom: 5rem;
 }
 
-header {
+.header {
     width: 100%;
     height: 10rem;
     color: #fff;
     background-color: rgb(236, 150, 92);
-    position: fixed;
+    position: absolute;
+    top: 0;
+    &.sticky {
+        position: fixed;
+        top: 0;
+    }
     .header-wrapper {
         height: 10rem;
         display: flex;
@@ -72,7 +77,7 @@ header {
 }
 .skills {
     margin: 0;
-    padding: 15rem 0 10rem;
+    padding: 10rem 0;
     background-color: #ffdac8;
     &-list {
         width: 80rem;
@@ -107,7 +112,7 @@ header {
 }
 .works {
     margin: 0;
-    padding: 15rem 0 10rem;
+    padding: 10rem 0;
     background-color: #fff;
     &-wrapper {
         width: 100rem;
@@ -161,7 +166,7 @@ header {
 }
 .contact {
     margin: 0;
-    padding: 15rem 0 0;
+    padding: 10rem 0;
     background-color: #ffdac8;
     &-wrapper {
         width: 80rem;

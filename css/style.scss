@@ -146,7 +146,7 @@ h2 {
             margin-bottom: 1rem;
             a {
                 text-decoration: none;
-                color: #424242;
+                font-weight: bold;
                 &:hover {
                     cursor: pointer;
                     color: rgb(236, 150, 92);;
@@ -157,7 +157,16 @@ h2 {
             width: 42rem;
             height: auto;
             margin: 3rem auto;
-
+        }
+        .cresta {
+            width: 42rem;
+            height: auto;
+            margin: 3rem auto 12rem;
+        }
+        .cresta-sp {
+            width: auto;
+            height: 36rem;
+            margin: 3rem auto;
         }
     }
     #empty {

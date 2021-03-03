@@ -191,7 +191,7 @@ h2 {
 
 .works-items p a {
   text-decoration: none;
-  color: #424242;
+  font-weight: bold;
 }
 
 .works-items p a:hover {
@@ -202,6 +202,18 @@ h2 {
 .works-items .dummy-image {
   width: 42rem;
   height: auto;
+  margin: 3rem auto;
+}
+
+.works-items .cresta {
+  width: 42rem;
+  height: auto;
+  margin: 3rem auto 12rem;
+}
+
+.works-items .cresta-sp {
+  width: auto;
+  height: 36rem;
   margin: 3rem auto;
 }
 
